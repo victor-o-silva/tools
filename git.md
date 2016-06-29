@@ -17,6 +17,7 @@
 * [git reflog](#git-reflog)
 * [git ls-files](#git-ls-files)
 * [git fsck](#git-fsck)
+* [git bisect](#git-bisect)
 
 ## Config values
 
@@ -350,4 +351,34 @@ git fsck --dangling --no-progress
 List unreachable objects:
 ```bash
 git fsck --unreachable --no-progress
+```
+
+## git bisect
+
+Start a bisect section, tell git a bad commit and the last known good commit:
+```bash
+git bisect start
+git bisect bad HEAD
+git bisect good HEAD~10
+```
+
+Shortcut to start a bisect section telling git a bad commit and the last known good commit:
+```bash
+git bisect start HEAD HEAD~10
+```
+
+Tell Git that the current commit in a bisect section is good or bad:
+```bash
+git bisect good
+git bisect bad
+```
+
+Use an automated script (make, in this example) to find the first bad commit:
+```bash
+git bisect run make
+```
+
+Finish bisect section and reset HEAD to the original position:
+```bash
+git bisect reset
 ```

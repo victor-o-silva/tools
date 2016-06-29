@@ -11,6 +11,7 @@
 * [git branch](#git-branch)
 * [git reset](#git-reset)
 * [git merge](#git-merge)
+* [git merge-base](#git-merge-base)
 
 ## Config values
 
@@ -280,4 +281,11 @@ git merge feature
 Abort a merge after a conflict:
 ```bash
 git merge --abort
+```
+
+## git merge-base
+
+Show hash of first common ancestor of two refs:
+```bash
+git merge-base branch1 branch2
 ```

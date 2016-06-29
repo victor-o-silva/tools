@@ -2,6 +2,7 @@
 
 * [Config values](#config-values)
 * [git log](#git-log)
+* [git show](#git-show)
 
 ## Config values
 
@@ -136,4 +137,21 @@ git log --merge
 List commits in reflog entries
 ```bash
 git log --walk-reflogs
+```
+
+## git show
+
+Show first parent of a merge commit (follow the branch that the other branch was merged into):
+```bash
+git show HEAD^
+```
+
+Show second parent of a merge commit (follow the branch that was merged):
+```bash
+git show HEAD^2
+```
+
+Show branch topology between refs (common ancestor is show last):
+```bash
+git show-branch master 4rqe134 1.5.4
 ```

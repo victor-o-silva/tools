@@ -3,6 +3,7 @@
 * [Config values](#config-values)
 * [git log](#git-log)
 * [git show](#git-show)
+* [git add](#git-add)
 
 ## Config values
 
@@ -154,4 +155,11 @@ git show HEAD^2
 Show branch topology between refs (common ancestor is show last):
 ```bash
 git show-branch master 4rqe134 1.5.4
+```
+
+## git add
+
+Add parts of the changes of a file to the index
+```bash
+git add -p file.txt
 ```

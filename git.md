@@ -13,6 +13,7 @@
 * [git reset](#git-reset)
 * [git merge](#git-merge)
 * [git merge-base](#git-merge-base)
+* [git blame](#git-blame)
 
 ## Config values
 
@@ -301,4 +302,18 @@ git merge --abort
 Show hash of first common ancestor of two refs:
 ```bash
 git merge-base branch1 branch2
+```
+
+## git blame
+
+Show commit-hash/author/date of last modifications to each line in a specific file:
+```bash
+git blame file.ext
+```
+
+Show commit-hash/author/date of last modifications to each line in a specific portion of a specific file
+(for languages other than C/C++, the second example needs a diff section for the language in the repo's .gitattributes file):
+```bash
+git blame file.ext -L15,30
+git blame file.ext -L:function_name:file.ext
 ```

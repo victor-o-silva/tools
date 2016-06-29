@@ -2,6 +2,7 @@
 
 * [Config values](#config-values)
 * [git log](#git-log)
+* [git shortlog](#git-shortlog)
 * [git show](#git-show)
 * [git add](#git-add)
 * [git diff](#git-diff)
@@ -146,6 +147,18 @@ git log --merge
 List commits in reflog entries:
 ```bash
 git log --walk-reflogs
+```
+
+## git shortlog
+
+Show total number of commits mabe by each author:
+```bash
+git shortlog -s
+```
+
+Show total number of commits mabe by each author, sorted by such number:
+```bash
+git shortlog -s -n
 ```
 
 ## git show

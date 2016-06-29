@@ -10,6 +10,7 @@
 * [git cherry-pick](#git-cherry-pick)
 * [git branch](#git-branch)
 * [git reset](#git-reset)
+* [git merge](#git-merge)
 
 ## Config values
 
@@ -267,4 +268,16 @@ git reset --soft HEAD~1
 Move HEAD to previous commit, leave index empty, and update working dir with the changes of the undone commits:
 ```bash
 git reset --mixed HEAD~1
+```
+
+## git merge
+
+Merge a branch into the current one:
+```bash
+git merge feature
+```
+
+Abort a merge after a conflict:
+```bash
+git merge --abort
 ```

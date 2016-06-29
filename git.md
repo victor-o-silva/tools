@@ -4,6 +4,7 @@
 * [git log](#git-log)
 * [git show](#git-show)
 * [git add](#git-add)
+* [git diff](#git-diff)
 
 ## Config values
 
@@ -162,4 +163,26 @@ git show-branch master 4rqe134 1.5.4
 Add parts of the changes of a file to the index
 ```bash
 git add -p file.txt
+```
+
+## git diff
+
+Diff between specific commits:
+```bash
+git diff HEAD~5..HEAD~2
+```
+
+Diff for a specific file between specific commits:
+```bash
+git diff HEAD~2:file.ext..HEAD~1:file.ext
+```
+
+Diff in words instead of complete lines:
+```bash
+git diff --word-diff
+```
+
+Word diff in colors only (no '[-', '-]', '{+', '+'} delimiters):
+```bash
+git diff --word-diff=color
 ```

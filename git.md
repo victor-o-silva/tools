@@ -5,6 +5,7 @@
 * [git show](#git-show)
 * [git add](#git-add)
 * [git diff](#git-diff)
+* [git checkout](#git-checkout)
 
 ## Config values
 
@@ -185,4 +186,12 @@ git diff --word-diff
 Word diff in colors only (no '[-', '-]', '{+', '+'} delimiters):
 ```bash
 git diff --word-diff=color
+```
+
+## git checkout
+
+When a merge fails, use "our" or "their" version:
+```bash
+git checkout --ours file.ext
+git checkout --theirs file.ext
 ```

@@ -1,23 +1,13 @@
 # Git
 
-* [Config values](#config-values)
-* [git log](#git-log)
-* [git shortlog](#git-shortlog)
-* [git show](#git-show)
-* [git add](#git-add)
-* [git diff](#git-diff)
-* [git checkout](#git-checkout)
-* [git commit](#git-commit)
-* [git cherry-pick](#git-cherry-pick)
-* [git branch](#git-branch)
-* [git reset](#git-reset)
-* [git merge](#git-merge)
-* [git merge-base](#git-merge-base)
-* [git blame](#git-blame)
-* [git reflog](#git-reflog)
-* [git ls-files](#git-ls-files)
-* [git fsck](#git-fsck)
-* [git bisect](#git-bisect)
+|   |   |   |
+|---|---|---|
+|[Config values](#config-values)|[git log](#git-log)|[git shortlog](#git-shortlog)|
+|[git show](#git-show)|[git add](#git-add)|[git diff](#git-diff)|
+|[git checkout](#git-checkout)|[git commit](#git-commit)|[git cherry-pick](#git-cherry-pick)|
+|[git branch](#git-branch)|[git reset](#git-reset)|[git merge](#git-merge)|
+|[git merge-base](#git-merge-base)|[git blame](#git-blame)|[git reflog](#git-reflog)|
+|[git ls-files](#git-ls-files)|[git fsck](#git-fsck)|[git bisect](#git-bisect)|
 
 ## Config values
 

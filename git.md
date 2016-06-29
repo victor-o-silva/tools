@@ -1,5 +1,8 @@
 # Git
 
+* [Config values](#config-values)
+* [git log](#git-log)
+
 ## Config values
 
 ```bash

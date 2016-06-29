@@ -14,6 +14,7 @@
 * [git merge](#git-merge)
 * [git merge-base](#git-merge-base)
 * [git blame](#git-blame)
+* [git reflog](#git-reflog)
 
 ## Config values
 
@@ -316,4 +317,16 @@ Show commit-hash/author/date of last modifications to each line in a specific po
 ```bash
 git blame file.ext -L15,30
 git blame file.ext -L:function_name:file.ext
+```
+
+## git reflog
+
+Show reflog of HEAD:
+```bash
+git reflog
+```
+
+Show reflog of a branch:
+```bash
+git reflog feature
 ```

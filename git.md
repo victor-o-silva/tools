@@ -16,6 +16,7 @@
 * [git blame](#git-blame)
 * [git reflog](#git-reflog)
 * [git ls-files](#git-ls-files)
+* [git fsck](#git-fsck)
 
 ## Config values
 
@@ -337,4 +338,16 @@ git reflog feature
 Remove untracked files:
 ```bash
 git ls-files --exclude-standard --others | xargs rm
+```
+
+## git fsck
+
+List dangling (unreferenced) objects:
+```bash
+git fsck --dangling --no-progress
+```
+
+List unreachable objects:
+```bash
+git fsck --unreachable --no-progress
 ```

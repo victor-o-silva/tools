@@ -9,6 +9,7 @@
 * [git commit](#git-commit)
 * [git cherry-pick](#git-cherry-pick)
 * [git branch](#git-branch)
+* [git reset](#git-reset)
 
 ## Config values
 
@@ -249,4 +250,21 @@ git branch --no-merged feature
 Force an existing branch to be set to a specific commit:
 ```bash
 git branch -f master HEAD
+```
+
+## git reset
+
+Move HEAD to previous commit, leave index empty, and discard changes in working dir:
+```bash
+git reset --hard HEAD~1
+```
+
+Move HEAD to previous commit, update index to match its changes, and leave working dir untouched:
+```bash
+git reset --soft HEAD~1
+```
+
+Move HEAD to previous commit, leave index empty, and update working dir with the changes of the undone commits:
+```bash
+git reset --mixed HEAD~1
 ```

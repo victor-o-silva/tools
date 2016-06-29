@@ -8,6 +8,7 @@
 * [git checkout](#git-checkout)
 * [git commit](#git-commit)
 * [git cherry-pick](#git-cherry-pick)
+* [git branch](#git-branch)
 
 ## Config values
 
@@ -226,4 +227,21 @@ git cherry-pick A
 Cherry pick the range of commits from A to B:
 ```bash
 git cherry-pick A^..B
+```
+
+## git branch
+
+List branches that have been merged into a specific branch:
+```bash
+git branch --merged feature
+```
+
+List branches that have **not** been merged into a specific branch:
+```bash
+git branch --no-merged feature
+```
+
+Force an existing branch to be set to a specific commit:
+```bash
+git branch -f master HEAD
 ```

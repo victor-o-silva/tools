@@ -15,6 +15,7 @@
 * [git merge-base](#git-merge-base)
 * [git blame](#git-blame)
 * [git reflog](#git-reflog)
+* [git ls-files](#git-ls-files)
 
 ## Config values
 
@@ -329,4 +330,11 @@ git reflog
 Show reflog of a branch:
 ```bash
 git reflog feature
+```
+
+## git ls-files
+
+Remove untracked files:
+```bash
+git ls-files --exclude-standard --others | xargs rm
 ```

@@ -193,6 +193,11 @@ git diff --word-diff=color
 
 ## git checkout
 
+Create a new branch from the current HEAD
+```bash
+git checkout -b my-new-branch
+```
+
 When a merge fails, use "our" or "their" version:
 ```bash
 git checkout --ours file.ext

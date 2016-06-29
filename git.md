@@ -51,90 +51,90 @@ git log feature...master
 
 ---
 
-List commits excluding merges
+List commits excluding merges:
 ```bash
 git log --no-merges
 ```
 
-List only merge commits
+List only merge commits:
 ```bash
 git log --merges
 ```
 
-List commits that modify a specific file
+List commits that modify a specific file:
 ```bash
 git log --follow file.ext
 ```
 
-List commits with their changes
+List commits with their changes:
 ```bash
 git log --patch
 ```
 
-List commits with their stats
+List commits with their stats:
 ```bash
 git log --stat
 ```
 
-List commits that either add or remove lines with the word "calculator"
+List commits that either add or remove lines with the word "calculator":
 ```bash
 git log -Scalculator
 ```
 
-List commits that either add or remove lines that match a regex
+List commits that either add or remove lines that match a regex:
 ```bash
 git log -S"tags\s*=" --pickaxe-regex
 ```
 
-List commits that add, remove **or modify** lines that match a regex (always interpreted as regex, doesn't need an extra option)
+List commits that add, remove **or modify** lines that match a regex (always interpreted as regex, doesn't need an extra option):
 ```bash
 git log -Gcalculator
 ```
 
-List commits that have changes between two lines of a file
+List commits that have changes between two lines of a file:
 ```bash
 git log -L147,414:file.ext
 ```
 
 List commits that have changes to a specific function/class in a specific file
-(for languages other than C/C++, needs a diff section for the language in the repo's .gitattributes file)
+(for languages other than C/C++, needs a diff section for the language in the repo's .gitattributes file):
 ```bash
 git log -L:function_name:file.ext
 ```
 
-List commits authored by a specific author
+List commits authored by a specific author:
 ```bash
 git log --author=Victor
 ```
 
-List commits committed by a specific committer
+List commits committed by a specific committer:
 ```bash
 git log --committer=Tim
 ```
 
-List commits in a timeframe
+List commits in a timeframe:
 ```bash
 git log --since="1 week ago"
 git log --until="2 days ago"
 git log --since="1 week ago" --until="2 days ago"
 ```
 
-List commits and show names of files changed by each one
+List commits and show names of files changed by each one:
 ```bash
 git log --name-only
 ```
 
-List commits whose message match a regex
+List commits whose message match a regex:
 ```bash
 git log --grep=pattern
 ```
 
-List to-be-merged commits that touch a conflicting file after a failed merge
+List to-be-merged commits that touch a conflicting file after a failed merge:
 ```bash
 git log --merge
 ```
 
-List commits in reflog entries
+List commits in reflog entries:
 ```bash
 git log --walk-reflogs
 ```

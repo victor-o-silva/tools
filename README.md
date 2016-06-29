@@ -1,4 +1,4 @@
 # my-cheat-sheets
 
-[Git](git.md)
-[Linux](linux.md)
+* [Git](git.md)
+* [Linux](linux.md)

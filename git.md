@@ -6,6 +6,7 @@
 * [git add](#git-add)
 * [git diff](#git-diff)
 * [git checkout](#git-checkout)
+* [git commit](#git-commit)
 
 ## Config values
 
@@ -194,4 +195,22 @@ When a merge fails, use "our" or "their" version:
 ```bash
 git checkout --ours file.ext
 git checkout --theirs file.ext
+```
+
+## git commit
+
+Amend a commit
+```bash
+git commit --amend
+```
+
+Reuse the message of a specific commit:
+```bash
+git commit -C 78482bd
+git commit --reuse-message 78482bd
+```
+
+Amend a commit reusing its message:
+```bash
+git commit --amend -C HEAD
 ```

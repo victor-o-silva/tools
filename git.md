@@ -7,6 +7,7 @@
 * [git diff](#git-diff)
 * [git checkout](#git-checkout)
 * [git commit](#git-commit)
+* [git cherry-pick](#git-cherry-pick)
 
 ## Config values
 
@@ -213,4 +214,16 @@ git commit --reuse-message 78482bd
 Amend a commit reusing its message:
 ```bash
 git commit --amend -C HEAD
+```
+
+## git cherry-pick
+
+Cherry-pick commit A:
+```bash
+git cherry-pick A
+```
+
+Cherry pick the range of commits from A to B:
+```bash
+git cherry-pick A^..B
 ```

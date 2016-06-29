@@ -16,3 +16,121 @@ git config --global alias.lg2 "log --graph --abbrev-commit --decorate --format=f
 git config --global alias.worddiff "diff --word-diff=color"
 git config --global rebase.autoSquash true
 ```
+
+## git log
+
+Considering this state:
+```
+  A <- B <- C <- D[master]
+      /\
+       \
+         E <- F[feature]
+```
+
+List commits that are reachable from master's HEAD but not from feature's,
+i.e. commits that are in master but are not in feature (lists commits D and C):
+```bash
+git log feature..master
+```
+
+List commits that are reachable from feature but not from master,
+i.e. commits that are in feature but are not in master (lists commits F and E):
+```bash
+git log master..feature
+```
+
+List commits that are reachable from either feature or master, but not from both
+(lists commits D, C, F and E):
+```bash
+git log feature...master
+```
+
+---
+
+List commits excluding merges
+```bash
+git log --no-merges
+```
+
+List only merge commits
+```bash
+git log --merges
+```
+
+List commits that modify a specific file
+```bash
+git log --follow file.ext
+```
+
+List commits with their changes
+```bash
+git log --patch
+```
+
+List commits with their stats
+```bash
+git log --stat
+```
+
+List commits that either add or remove lines with the word "calculator"
+```bash
+git log -Scalculator
+```
+
+List commits that either add or remove lines that match a regex
+```bash
+git log -S"tags\s*=" --pickaxe-regex
+```
+
+List commits that add, remove **or modify** lines that match a regex (always interpreted as regex, doesn't need an extra option)
+```bash
+git log -Gcalculator
+```
+
+List commits that have changes between two lines of a file
+```bash
+git log -L147,414:file.ext
+```
+
+List commits that have changes to a specific function/class in a specific file
+(for languages other than C/C++, needs a diff section for the language in the repo's .gitattributes file)
+```bash
+git log -L:function_name:file.ext
+```
+
+List commits authored by a specific author
+```bash
+git log --author=Victor
+```
+
+List commits committed by a specific committer
+```bash
+git log --committer=Tim
+```
+
+List commits in a timeframe
+```bash
+git log --since="1 week ago"
+git log --until="2 days ago"
+git log --since="1 week ago" --until="2 days ago"
+```
+
+List commits and show names of files changed by each one
+```bash
+git log --name-only
+```
+
+List commits whose message match a regex
+```bash
+git log --grep=pattern
+```
+
+List to-be-merged commits that touch a conflicting file after a failed merge
+```bash
+git log --merge
+```
+
+List commits in reflog entries
+```bash
+git log --walk-reflogs
+```

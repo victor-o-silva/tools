@@ -331,6 +331,11 @@ Remove untracked files:
 git ls-files --exclude-standard --others | xargs rm
 ```
 
+Add all modified files:
+```bash
+git ls-files -m | xargs git add
+```
+
 ## git fsck
 
 List dangling (unreferenced) objects:

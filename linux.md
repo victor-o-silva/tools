@@ -86,3 +86,23 @@ uname -r   # Kernel release version
 uname -a   # All information
 ```
 
+Show process of the current shell:
+```bash
+ps
+```
+
+Show first and last ten lines of a file:
+```bash
+head -n 10 my_file.txt
+tail -n 10 my_file.txt
+```
+
+Execute a program every 3 seconds, showing output fullscreen
+```bash
+watch -n 3 program arg1 arg2
+```
+
+Start Gnome System Monitor (on systems running Gnome)
+```bash
+gnome-system-monitor
+```

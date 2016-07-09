@@ -97,12 +97,60 @@ head -n 10 my_file.txt
 tail -n 10 my_file.txt
 ```
 
-Execute a program every 3 seconds, showing output fullscreen
+Execute a program every 3 seconds, showing output fullscreen:
 ```bash
 watch -n 3 program arg1 arg2
 ```
 
-Start Gnome System Monitor (on systems running Gnome)
+Start Gnome System Monitor (on systems running Gnome):
 ```bash
 gnome-system-monitor
 ```
+
+Halt, power off or reboot the machine (as superuser):
+```bash
+shutdown -r now    # reboot machine now
+shutdown -H +10    # bring system down and then halt it, 10 minutes from now
+shutdown -P 13:45  # bring system down and then power it off, at 13:45
+shutdown -P +2 "addition of a new hard disk"   # specify a wall message to be shown to logged users
+shutdown -c        # cancel any pending shutdown operations
+```
+
+Run a command in the background (ampersand at the end):
+```bash
+gedit &
+```
+
+List backgrounds commands running in the current shell:
+```bash
+jobs
+```
+
+Bring most recent background job to the foreground:
+```bash
+fg
+```
+
+Show previous and current runlevel:
+```bash
+runlevel
+```
+
+Change runlevel of the system (as superuser):
+```bash
+init 0  # change to runlevel 0 (power off the system)
+init 6  # change to runlevel 6 (reboot the system)
+```
+
+Show network interfaces:
+```bash
+ifconfig     # show interfaces that are up
+ifconfig -a  # show all interfaces
+```
+
+Activate/deactivate a network interface (e.g.: eth1 - as superuser):
+```bash
+ifconfig eth1 up    # activate
+ifconfig eth1 down  # deactivate
+```
+

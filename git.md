@@ -23,6 +23,7 @@ git config --global alias.lg "log --pretty='%C(bold red)%h%C(reset) | %C(bold cy
 git config --global alias.lg1 "log --graph --decorate --format=format:'%C(bold blue)%h%C(reset) %C(bold yellow)%d%C(reset) %s %C(cyan)%an%C(reset) %C(bold green)(%ar)%C(reset)' --all"
 git config --global alias.lg2 "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'"
 git config --global alias.worddiff "diff --word-diff=color"
+git config --global alias.ammend "commit --amend -C HEAD"
 git config --global rebase.autoSquash true
 ```
 

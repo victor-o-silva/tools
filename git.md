@@ -8,6 +8,7 @@
 |[git branch](#git-branch)|[git reset](#git-reset)|[git merge](#git-merge)|
 |[git merge-base](#git-merge-base)|[git blame](#git-blame)|[git reflog](#git-reflog)|
 |[git ls-files](#git-ls-files)|[git fsck](#git-fsck)|[git bisect](#git-bisect)|
+|[git stash](#git-stash)|||
 
 ## Config values
 
@@ -24,6 +25,7 @@ git config --global alias.lg1 "log --graph --decorate --format=format:'%C(bold b
 git config --global alias.lg2 "log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'"
 git config --global alias.worddiff "diff --word-diff=color"
 git config --global alias.ammend "commit --amend -C HEAD"
+git config --global alias.stash-unstaged "stash --keep-index --include-untracked"
 git config --global rebase.autoSquash true
 ```
 
@@ -377,4 +379,25 @@ git bisect run make
 Finish bisect section and reset HEAD to the original position:
 ```bash
 git bisect reset
+```
+
+## git stash
+
+Stash the changes in a dirty working directory away
+```bash
+git stash
+```
+
+Stash, but leave the already staged changes intact
+```bash
+git stash --keep-index
+or
+git stash -k
+```
+
+Stash untracked files too
+```bash
+git stash --include-untracked
+or
+git stash -u
 ```

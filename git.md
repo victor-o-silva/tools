@@ -8,7 +8,7 @@
 |[git branch](#git-branch)|[git reset](#git-reset)|[git merge](#git-merge)|
 |[git merge-base](#git-merge-base)|[git blame](#git-blame)|[git reflog](#git-reflog)|
 |[git ls-files](#git-ls-files)|[git fsck](#git-fsck)|[git bisect](#git-bisect)|
-|[git stash](#git-stash)|||
+|[git stash](#git-stash)|[git ls-tree](#git-ls-tree)||
 
 ## Config values
 
@@ -400,4 +400,11 @@ Stash untracked files too
 git stash --include-untracked
 or
 git stash -u
+```
+
+## git ls-tree
+
+Print submodule's current commit information
+```bash
+git ls-tree master submodule-directory
 ```

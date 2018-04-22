@@ -12,6 +12,7 @@
 - [NodeJS](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 - [Commitizen](https://github.com/commitizen/cz-cli)
 - [Terminology (ppa:enlightenment-git/ppa)](https://www.enlightenment.org/about-terminology)
+- [Z](https://github.com/rupa/z/blob/master/z.sh)
 
 ## Git config values
 

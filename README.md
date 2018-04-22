@@ -10,7 +10,7 @@
 - [Google Chrome](https://www.google.com.br/chrome/)
 - [NodeJS](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 - [Commitizen](https://github.com/commitizen/cz-cli)
-- [Terminator](https://gnometerminator.blogspot.com.br/p/introduction.html)
+- [Terminology (ppa:enlightenment-git/ppa)](https://www.enlightenment.org/about-terminology)
 
 ## Git config values
 

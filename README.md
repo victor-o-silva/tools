@@ -30,3 +30,18 @@ git config --global alias.amend "commit --amend -C HEAD"
 git config --global alias.stash-unstaged "stash --keep-index --include-untracked"
 git config --global rebase.autoSquash true
 ```
+## [Visual Studio Code](https://code.visualstudio.com/) extensions
+
+- [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
+- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+- [cdnjs](https://marketplace.visualstudio.com/items?itemName=JakeWilson.vscode-cdnjs)
+- [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
+- [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+- [Django Template](https://marketplace.visualstudio.com/items?itemName=bibhasdn.django-html)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
+- [gettext](https://marketplace.visualstudio.com/items?itemName=mrorz.language-gettext)
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
+- [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+- [vscode-gitignore-syntax](https://marketplace.visualstudio.com/items?itemName=dunstontc.vscode-gitignore-syntax)

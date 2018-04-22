@@ -13,6 +13,7 @@
 - [Commitizen](https://github.com/commitizen/cz-cli)
 - [Terminology (ppa:enlightenment-git/ppa)](https://www.enlightenment.org/about-terminology)
 - [Z](https://github.com/rupa/z/blob/master/z.sh)
+- [Trash](https://github.com/sindresorhus/trash#cli)
 
 ## Git config values
 

@@ -30,7 +30,7 @@ git config --global alias.amend "commit --amend -C HEAD"
 git config --global alias.stash-unstaged "stash --keep-index --include-untracked"
 git config --global rebase.autoSquash true
 ```
-## [Visual Studio Code](https://code.visualstudio.com/) extensions
+## Visual Studio Code extensions
 
 - [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
 - [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)

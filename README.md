@@ -3,6 +3,7 @@
 
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
+    - Plugins: `git extract copydir cp web-search`
 - [PyEnv](https://github.com/pyenv/pyenv)
 - [Postman](https://www.getpostman.com/apps)
 - [Visual Studio Code](https://code.visualstudio.com/download)

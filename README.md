@@ -5,6 +5,7 @@
 - [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
     - Plugins: `git extract copydir cp web-search`
 - [PyEnv](https://github.com/pyenv/pyenv)
+- [Pipenv](https://github.com/pypa/pipenv/)
 - [Postman](https://www.getpostman.com/apps)
 - [Visual Studio Code](https://code.visualstudio.com/download)
 - [Docker](https://www.docker.com/get-docker)

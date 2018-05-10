@@ -1,5 +1,5 @@
 
-## Tools
+## Local Tools
 
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
@@ -15,6 +15,10 @@
 - [Terminology (ppa:enlightenment-git/ppa)](https://www.enlightenment.org/about-terminology)
 - [Z](https://github.com/rupa/z/blob/master/z.sh)
 - [Trash](https://github.com/sindresorhus/trash#cli)
+
+## External services
+
+- [ngrok](https://ngrok.com/)
 
 ## Git config values
 

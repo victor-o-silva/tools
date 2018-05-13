@@ -58,3 +58,4 @@ git config --global rebase.autoSquash true
 ## PyCharm plugins
 
 - [Presentation Assistant](https://plugins.jetbrains.com/plugin/7345-presentation-assistant)
+- [Env File](https://plugins.jetbrains.com/plugin/7861-env-file)

@@ -8,6 +8,7 @@
 - [Pipenv](https://github.com/pypa/pipenv/)
 - [Postman](https://www.getpostman.com/apps)
 - [Visual Studio Code](https://code.visualstudio.com/download)
+- [PyCharm](https://www.jetbrains.com/pycharm/)
 - [Docker](https://www.docker.com/get-docker)
 - [Google Chrome](https://www.google.com.br/chrome/)
 - [NodeJS](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
@@ -53,3 +54,7 @@ git config --global rebase.autoSquash true
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
 - [vscode-gitignore-syntax](https://marketplace.visualstudio.com/items?itemName=dunstontc.vscode-gitignore-syntax)
+
+## PyCharm plugins
+
+- [Presentation Assistant](https://plugins.jetbrains.com/plugin/7345-presentation-assistant)

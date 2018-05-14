@@ -16,10 +16,13 @@
 - [Terminology (ppa:enlightenment-git/ppa)](https://www.enlightenment.org/about-terminology)
 - [Z](https://github.com/rupa/z/blob/master/z.sh)
 - [Trash](https://github.com/sindresorhus/trash#cli)
+- [Slack](https://slack.com/downloads/linux)
 
 ## External services
 
 - [ngrok](https://ngrok.com/)
+- [GitHub](https://github.com/)
+- [BitBucket](https://bitbucket.org)
 
 ## Git config values
 

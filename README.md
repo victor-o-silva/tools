@@ -2,6 +2,8 @@
 ## Local Tools
 
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [Git Flow](https://github.com/nvie/gitflow)
+- [Git Flow Completion](https://github.com/bobthecow/git-flow-completion)
 - [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
 - [PyEnv](https://github.com/pyenv/pyenv)
 - [Pipenv](https://github.com/pypa/pipenv/)

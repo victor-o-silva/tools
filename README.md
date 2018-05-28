@@ -3,7 +3,6 @@
 
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
-    - Plugins: `git extract copydir cp web-search`
 - [PyEnv](https://github.com/pyenv/pyenv)
 - [Pipenv](https://github.com/pypa/pipenv/)
 - [Postman](https://www.getpostman.com/apps)
@@ -23,6 +22,7 @@
 - [ngrok](https://ngrok.com/)
 - [GitHub](https://github.com/)
 - [BitBucket](https://bitbucket.org)
+- [Learn Git Branching](https://learngitbranching.js.org/)
 
 ## Git config values
 

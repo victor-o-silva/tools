@@ -22,7 +22,7 @@
 - [ngrok](https://ngrok.com/)
 - [GitHub](https://github.com/)
 - [BitBucket](https://bitbucket.org)
-- [Learn Git Branching](https://learngitbranching.js.org/)
+- [Learn Git Branching](https://learngitbranching.js.org/?NODEMO)
 
 ## Git config values
 

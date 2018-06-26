@@ -28,6 +28,7 @@
 - [Learn Git Branching](https://learngitbranching.js.org/?NODEMO)
 - [Git Graph JS](http://gitgraphjs.com/)
 - [FunRetro](https://funretro.github.io/distributed/)
+- [Gitmoji](https://gitmoji.carloscuesta.me/)
 
 ## Git config values
 

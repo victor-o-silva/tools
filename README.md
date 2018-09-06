@@ -5,6 +5,8 @@
 - [Git Flow](https://github.com/nvie/gitflow)
 - [Git Flow Completion](https://github.com/bobthecow/git-flow-completion)
 - [Tig](https://github.com/jonas/tig)
+- [Meld](http://meldmerge.org/)
+- [Gitmoji CLI](https://github.com/carloscuesta/gitmoji-cli)
 - [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
 - [PyEnv](https://github.com/pyenv/pyenv)
 - [Pipenv](https://github.com/pypa/pipenv/)
@@ -19,7 +21,6 @@
 - [Z](https://github.com/rupa/z/blob/master/z.sh)
 - [Trash](https://github.com/sindresorhus/trash#cli)
 - [Slack](https://slack.com/downloads/linux)
-- [Meld](http://meldmerge.org/)
 
 ## External services
 
@@ -29,7 +30,6 @@
 - [Learn Git Branching](https://learngitbranching.js.org/?NODEMO)
 - [Git Graph JS](http://gitgraphjs.com/)
 - [FunRetro](https://funretro.github.io/distributed/)
-- [Gitmoji](https://gitmoji.carloscuesta.me/)
 
 ## Git config values
 

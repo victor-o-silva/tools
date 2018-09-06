@@ -19,6 +19,7 @@
 - [Z](https://github.com/rupa/z/blob/master/z.sh)
 - [Trash](https://github.com/sindresorhus/trash#cli)
 - [Slack](https://slack.com/downloads/linux)
+- [Meld](http://meldmerge.org/)
 
 ## External services
 
@@ -47,6 +48,8 @@ git config --global alias.worddiff "diff --word-diff=color"
 git config --global alias.amend "commit --amend -C HEAD"
 git config --global alias.stash-unstaged "stash --keep-index --include-untracked"
 git config --global rebase.autoSquash true
+git config --global diff.tool meld
+git config --global difftool.prompt false
 ```
 ## Visual Studio Code extensions
 

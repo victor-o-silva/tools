@@ -47,6 +47,7 @@ git config --global alias.lg2 "log --graph --abbrev-commit --decorate --format=f
 git config --global alias.worddiff "diff --word-diff=color"
 git config --global alias.amend "commit --amend -C HEAD"
 git config --global alias.stash-unstaged "stash --keep-index --include-untracked"
+git config --global alias.fix "commit --fixup"
 git config --global rebase.autoSquash true
 git config --global diff.tool meld
 git config --global difftool.prompt false

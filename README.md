@@ -13,7 +13,7 @@
 - [Postman](https://www.getpostman.com/apps)
 - [Visual Studio Code](https://code.visualstudio.com/download)
 - [PyCharm](https://www.jetbrains.com/pycharm/)
-- [Docker](https://www.docker.com/get-docker)
+- [Docker](https://www.docker.com/get-docker) & [Docker COmpose](https://docs.docker.com/compose/)
 - [Google Chrome](https://www.google.com.br/chrome/)
 - [NodeJS](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 - [Commitizen](https://github.com/commitizen/cz-cli)
@@ -21,6 +21,7 @@
 - [Z](https://github.com/rupa/z/blob/master/z.sh)
 - [Trash](https://github.com/sindresorhus/trash#cli)
 - [Slack](https://slack.com/downloads/linux)
+- [htop](https://hisham.hm/htop/)
 
 ## External services
 

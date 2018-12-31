@@ -73,3 +73,9 @@ git config --global difftool.prompt false
 
 - [Presentation Assistant](https://plugins.jetbrains.com/plugin/7345-presentation-assistant)
 - [Env File](https://plugins.jetbrains.com/plugin/7861-env-file)
+
+## Temp:
+
+```
+ffmpeg -i inputfile.mp4 -vcodec copy -af "volume=-5dB" outputfile.mp4
+```

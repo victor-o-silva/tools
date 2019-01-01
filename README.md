@@ -65,3 +65,30 @@ git config --global difftool.prompt false
 
 - [Presentation Assistant](https://plugins.jetbrains.com/plugin/7345-presentation-assistant)
 - [Env File](https://plugins.jetbrains.com/plugin/7861-env-file)
+
+# Aliases
+
+```bash
+alias gmjc="gitmoji --commit"
+alias gmjl="gitmoji --list"
+```
+
+# Functions
+
+```bash
+
+# Example: ffmpeg_lower_volume 7years.mp4 3
+
+ffmpeg_lower_volume(){
+    inputfile=$1  # input file
+    amount=$2  # amount of dBs to lower
+    if [ -z "$amount" ]
+    then
+        $amount="5"
+    fi
+
+    ffmpeg -i $inputfile -vcodec copy -af "volume=-${amount}dB" lowered_${amount}dBs_${inputfile}
+}
+
+####################################################################
+```

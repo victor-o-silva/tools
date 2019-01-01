@@ -1,36 +1,37 @@
 
 ## Local Tools
 
-- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- [Git Flow](https://github.com/nvie/gitflow)
+- [Commitizen](https://github.com/commitizen/cz-cli)
+- [Docker](https://www.docker.com/get-docker) & [Docker Compose](https://docs.docker.com/compose/)
+- [ffmpeg](https://www.ffmpeg.org/download.html)
 - [Git Flow Completion](https://github.com/bobthecow/git-flow-completion)
-- [Tig](https://github.com/jonas/tig)
-- [Meld](http://meldmerge.org/)
+- [Git Flow](https://github.com/nvie/gitflow)
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [Gitmoji CLI](https://github.com/carloscuesta/gitmoji-cli)
+- [Google Chrome](https://www.google.com.br/chrome/)
+- [htop](https://hisham.hm/htop/)
+- [Meld](http://meldmerge.org/)
+- [NodeJS](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 - [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
-- [PyEnv](https://github.com/pyenv/pyenv)
 - [Pipenv](https://github.com/pypa/pipenv/)
 - [Postman](https://www.getpostman.com/apps)
-- [Visual Studio Code](https://code.visualstudio.com/download)
 - [PyCharm](https://www.jetbrains.com/pycharm/)
-- [Docker](https://www.docker.com/get-docker) & [Docker Compose](https://docs.docker.com/compose/)
-- [Google Chrome](https://www.google.com.br/chrome/)
-- [NodeJS](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
-- [Commitizen](https://github.com/commitizen/cz-cli)
-- [Terminology](https://www.enlightenment.org/about-terminology)
-- [Z](https://github.com/rupa/z/blob/master/z.sh)
-- [Trash](https://github.com/sindresorhus/trash#cli)
+- [PyEnv](https://github.com/pyenv/pyenv)
 - [Slack](https://slack.com/downloads/linux)
-- [htop](https://hisham.hm/htop/)
+- [Terminology](https://www.enlightenment.org/about-terminology)
+- [Tig](https://github.com/jonas/tig)
+- [Trash](https://github.com/sindresorhus/trash#cli)
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [Z](https://github.com/rupa/z/blob/master/z.sh)
 
 ## External services
 
-- [ngrok](https://ngrok.com/)
-- [GitHub](https://github.com/)
 - [BitBucket](https://bitbucket.org)
-- [Learn Git Branching](https://learngitbranching.js.org/?NODEMO)
-- [Git Graph JS](http://gitgraphjs.com/)
 - [FunRetro](https://funretro.github.io/distributed/)
+- [Git Graph JS](http://gitgraphjs.com/)
+- [GitHub](https://github.com/)
+- [Learn Git Branching](https://learngitbranching.js.org/?NODEMO)
+- [ngrok](https://ngrok.com/)
 
 ## Git config values
 
@@ -57,25 +58,10 @@ git config --global difftool.prompt false
 
 - [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
 - [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
-- [cdnjs](https://marketplace.visualstudio.com/items?itemName=JakeWilson.vscode-cdnjs)
 - [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
-- [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
-- [Django Template](https://marketplace.visualstudio.com/items?itemName=bibhasdn.django-html)
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [Git Blame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)
-- [gettext](https://marketplace.visualstudio.com/items?itemName=mrorz.language-gettext)
-- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
-- [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
-- [vscode-gitignore-syntax](https://marketplace.visualstudio.com/items?itemName=dunstontc.vscode-gitignore-syntax)
 
 ## PyCharm plugins
 
 - [Presentation Assistant](https://plugins.jetbrains.com/plugin/7345-presentation-assistant)
 - [Env File](https://plugins.jetbrains.com/plugin/7861-env-file)
-
-## Temp:
-
-```
-ffmpeg -i inputfile.mp4 -vcodec copy -af "volume=-5dB" outputfile.mp4
-```

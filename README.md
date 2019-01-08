@@ -1,10 +1,11 @@
 
 ## Local Tools
 
+- [Bat](https://github.com/sharkdp/bat)
 - [Commitizen](https://github.com/commitizen/cz-cli)
 - [Docker](https://www.docker.com/get-docker) & [Docker Compose](https://docs.docker.com/compose/)
 - [ffmpeg](https://www.ffmpeg.org/download.html)
-- [fzf](https://github.com/junegunn/fzf)
+- [Fzf](https://github.com/junegunn/fzf)
 - [Git Flow Completion](https://github.com/bobthecow/git-flow-completion)
 - [Git Flow](https://github.com/nvie/gitflow)
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)

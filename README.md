@@ -19,6 +19,7 @@
 - [Postman](https://www.getpostman.com/apps)
 - [PyCharm](https://www.jetbrains.com/pycharm/)
 - [PyEnv](https://github.com/pyenv/pyenv)
+- [Redshift](https://github.com/jonls/redshift)
 - [Slack](https://slack.com/downloads/linux)
 - [Terminology](https://www.enlightenment.org/about-terminology)
 - [Tig](https://github.com/jonas/tig)

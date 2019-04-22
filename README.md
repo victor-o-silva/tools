@@ -4,6 +4,7 @@
 - [Bat](https://github.com/sharkdp/bat)
 - [Commitizen](https://github.com/commitizen/cz-cli)
 - [Docker](https://www.docker.com/get-docker) & [Docker Compose](https://docs.docker.com/compose/)
+- [DBeaver](https://dbeaver.io/)
 - [ffmpeg](https://www.ffmpeg.org/download.html)
 - [Fzf](https://github.com/junegunn/fzf)
 - [Git Flow Completion](https://github.com/bobthecow/git-flow-completion)
@@ -74,24 +75,4 @@ git config --global difftool.prompt false
 ```bash
 alias gmjc="gitmoji --commit"
 alias gmjl="gitmoji --list"
-```
-
-# Functions
-
-```bash
-
-# Example: ffmpeg_lower_volume 7years.mp4 3
-
-ffmpeg_lower_volume(){
-    inputfile=$1  # input file
-    amount=$2  # amount of dBs to lower
-    if [ -z "$amount" ]
-    then
-        $amount="5"
-    fi
-
-    ffmpeg -i $inputfile -vcodec copy -af "volume=-${amount}dB" lowered_${amount}dBs_${inputfile}
-}
-
-####################################################################
 ```

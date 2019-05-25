@@ -1,18 +1,19 @@
 
 ## Local Tools
 
-- [Bat](https://github.com/sharkdp/bat)
-- [Commitizen](https://github.com/commitizen/cz-cli)
-- [Docker](https://www.docker.com/get-docker) & [Docker Compose](https://docs.docker.com/compose/)
+- [bat](https://github.com/sharkdp/bat)
+- [docker](https://www.docker.com/get-docker) & [Docker Compose](https://docs.docker.com/compose/)
 - [DBeaver](https://dbeaver.io/)
 - [ffmpeg](https://www.ffmpeg.org/download.html)
-- [Fzf](https://github.com/junegunn/fzf)
+- [fzf](https://github.com/junegunn/fzf)
+- [fx](https://github.com/antonmedv/fx)
 - [Git Flow Completion](https://github.com/bobthecow/git-flow-completion)
 - [Git Flow](https://github.com/nvie/gitflow)
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [Gitmoji CLI](https://github.com/carloscuesta/gitmoji-cli)
 - [Google Chrome](https://www.google.com.br/chrome/)
 - [htop](https://hisham.hm/htop/)
+- [httpie](https://httpie.org/)
 - [Meld](http://meldmerge.org/)
 - [NodeJS](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 - [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
@@ -20,13 +21,12 @@
 - [Postman](https://www.getpostman.com/apps)
 - [PyCharm](https://www.jetbrains.com/pycharm/)
 - [PyEnv](https://github.com/pyenv/pyenv)
+- [Ranger](https://github.com/ranger/ranger)
 - [Redshift](https://github.com/jonls/redshift)
 - [Slack](https://slack.com/downloads/linux)
 - [Terminology](https://www.enlightenment.org/about-terminology)
-- [Tig](https://github.com/jonas/tig)
-- [Trash](https://github.com/sindresorhus/trash#cli)
 - [Visual Studio Code](https://code.visualstudio.com/download)
-- [Z](https://github.com/rupa/z/blob/master/z.sh)
+- [z](https://github.com/rupa/z/blob/master/z.sh)
 
 ## External services
 

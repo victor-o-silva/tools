@@ -1,6 +1,7 @@
 
 ## Local Tools
 
+- [asciinema](https://asciinema.org) + [svg-term-cli](https://github.com/marionebl/svg-term-cli)
 - [bat](https://github.com/sharkdp/bat)
 - [docker](https://www.docker.com/get-docker) & [Docker Compose](https://docs.docker.com/compose/)
 - [DBeaver](https://dbeaver.io/)

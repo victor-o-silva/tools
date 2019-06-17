@@ -20,6 +20,8 @@
 - [NodeJS](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 - [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
   - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+  - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+  - [zsh-completions](https://github.com/zsh-users/zsh-completions)
 - [Pipenv](https://github.com/pypa/pipenv/)
 - [Postman](https://www.getpostman.com/apps)
 - [PyCharm](https://www.jetbrains.com/pycharm/)

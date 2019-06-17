@@ -54,6 +54,9 @@ alias gmjl="gitmoji --list"
 alias https='http --default-scheme=https'
 alias cat='bat'
 
+# zsh autosuggest color for solarized dark
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'
+
 # load autocompletions
 autoload -U compinit && compinit
 

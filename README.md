@@ -65,21 +65,7 @@ git config --global rebase.autoSquash true
 git config --global diff.tool meld
 git config --global difftool.prompt false
 ```
-## Visual Studio Code extensions
-
-- [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
-- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
-- [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
-- [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
 
 ## PyCharm plugins
 
-- [Presentation Assistant](https://plugins.jetbrains.com/plugin/7345-presentation-assistant)
 - [Env File](https://plugins.jetbrains.com/plugin/7861-env-file)
-
-# Aliases
-
-```bash
-alias gmjc="gitmoji --commit"
-alias gmjl="gitmoji --list"
-```

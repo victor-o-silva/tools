@@ -57,6 +57,11 @@ alias cat='bat'
 # zsh autosuggest color for solarized dark
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'
 
+# TILIX
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+    source /etc/profile.d/vte-2.91.sh
+fi
+
 # load autocompletions
 autoload -U compinit && compinit
 

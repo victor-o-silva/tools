@@ -32,6 +32,7 @@
 - [Redshift](https://github.com/jonls/redshift)
 - [Slack](https://slack.com/downloads/linux)
 - [Terminology](https://www.enlightenment.org/about-terminology)
+- [Tilix](https://gnunn1.github.io/tilix-web/)
 - [Visual Studio Code](https://code.visualstudio.com/download)
 - [z](https://github.com/rupa/z/blob/master/z.sh)
 

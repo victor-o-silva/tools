@@ -62,6 +62,9 @@ if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
     source /etc/profile.d/vte-2.91.sh
 fi
 
+# Default editor
+export EDITOR=~/bin/EDITOR
+
 # load autocompletions
 autoload -U compinit && compinit
 

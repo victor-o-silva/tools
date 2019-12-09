@@ -38,6 +38,9 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 
+# PIP
+export PIP_REQUIRE_VIRTUALENV=true
+
 # PIPENV
 export PIPENV_VENV_IN_PROJECT=1
 eval "$(pipenv --completion)"

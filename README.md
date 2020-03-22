@@ -1,25 +1,18 @@
 
 ## Local Tools
 
-- [asciinema](https://asciinema.org) + [svg-term-cli](https://github.com/marionebl/svg-term-cli)
-- [awesome-terminal-fonts](https://github.com/gabrielelana/awesome-terminal-fonts) and [powerline fonts](https://github.com/powerline/fonts)
 - [bat](https://github.com/sharkdp/bat)
 - [docker](https://www.docker.com/get-docker)
   - [Docker Compose](https://docs.docker.com/compose/)
 - [DBeaver](https://dbeaver.io/)
-- [ffmpeg](https://www.ffmpeg.org/download.html)
-- [fzf](https://github.com/junegunn/fzf)
-- [fx](https://github.com/antonmedv/fx)
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-  - [Git Flow Completion](https://github.com/bobthecow/git-flow-completion)
-  - [Git Flow](https://github.com/nvie/gitflow)
   - [Gitmoji CLI](https://github.com/carloscuesta/gitmoji-cli)
 - [Google Chrome](https://www.google.com.br/chrome/)
 - [htop](https://hisham.hm/htop/)
-- [httpie](https://httpie.org/)
 - [Meld](http://meldmerge.org/)
 - [NodeJS](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 - [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
+  - [awesome-terminal-fonts](https://github.com/gabrielelana/awesome-terminal-fonts) and [powerline fonts](https://github.com/powerline/fonts)
   - [powerlevel9k](https://github.com/bhilburn/powerlevel9k)
   - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
   - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
@@ -28,22 +21,11 @@
 - [Postman](https://www.getpostman.com/apps)
 - [PyCharm](https://www.jetbrains.com/pycharm/)
 - [PyEnv](https://github.com/pyenv/pyenv)
-- [Ranger](https://github.com/ranger/ranger)
 - [Redshift](https://github.com/jonls/redshift)
 - [Slack](https://slack.com/downloads/linux)
-- [Terminology](https://www.enlightenment.org/about-terminology)
 - [Tilix](https://gnunn1.github.io/tilix-web/)
 - [Visual Studio Code](https://code.visualstudio.com/download)
 - [z](https://github.com/rupa/z/blob/master/z.sh)
-
-## External services
-
-- [BitBucket](https://bitbucket.org)
-- [FunRetro](https://funretro.github.io/distributed/)
-- [Git Graph JS](http://gitgraphjs.com/)
-- [GitHub](https://github.com/)
-- [Learn Git Branching](https://learngitbranching.js.org/?NODEMO)
-- [ngrok](https://ngrok.com/)
 
 ## Git config values
 

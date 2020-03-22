@@ -1,9 +1,9 @@
 export TERM="xterm-256color"
 
-export ZSH="/home/victor/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # source fonts
-source ~/.fonts/*.sh
+source $HOME/.fonts/*.sh
 
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
@@ -25,11 +25,16 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+# Tilix
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+    source /etc/profile.d/vte.sh
+fi
+
 # BAT
 export BAT_THEME="OneHalfDark"
 
-# FZF
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# User's Python scripts
+export PATH="$(python -m site --user-base)/bin:$PATH"
 
 # PYENV
 export PYENV_ROOT="$HOME/.pyenv"
@@ -54,23 +59,12 @@ export PATH=~/.npm-global/bin:$PATH
 # ALIASES
 alias gmjc="gitmoji --commit"
 alias gmjl="gitmoji --list"
-alias https='http --default-scheme=https'
-alias cat='bat'
 
 # zsh autosuggest color for solarized dark
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'
-
-# TILIX
-if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
-    source /etc/profile.d/vte-2.91.sh
-fi
 
 # Default editor
 export EDITOR=~/bin/EDITOR
 
 # load autocompletions
 autoload -U compinit && compinit
-
-
-
-

@@ -13,7 +13,7 @@
 - [NodeJS](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 - [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
   - [awesome-terminal-fonts](https://github.com/gabrielelana/awesome-terminal-fonts) and [powerline fonts](https://github.com/powerline/fonts)
-  - [powerlevel9k](https://github.com/bhilburn/powerlevel9k)
+  - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
   - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
   - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
   - [zsh-completions](https://github.com/zsh-users/zsh-completions)

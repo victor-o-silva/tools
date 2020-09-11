@@ -5,11 +5,6 @@ export ZSH="$HOME/.oh-my-zsh"
 # source fonts
 source $HOME/.fonts/*.sh
 
-POWERLEVEL10K_PROMPT_ADD_NEWLINE=true
-POWERLEVEL10K_PROMPT_ON_NEWLINE=true
-POWERLEVEL10K_LEFT_PROMPT_ELEMENTS=(context virtualenv dir dir_writable vcs)
-POWERLEVEL10K_RIGHT_PROMPT_ELEMENTS=(status background_jobs time)
-POWERLEVEL10K_MODE='awesome-fontconfig'
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 DEFAULT_USER="victor"

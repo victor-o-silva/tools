@@ -1,0 +1,82 @@
+version: "3"
+
+services:
+
+  database:
+    image: mysql:8
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    volumes:
+      - ./volumes/database:/var/lib/mysql
+    ports:
+      - "127.0.0.1:4000:3306"
+
+  database_postgres:
+    image: postgres:10-alpine
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+    volumes:
+      - ./volumes/database_postgres:/var/lib/postgresql/data
+    ports:
+      - "127.0.0.1:4002:5432"
+
+  redis:
+    image: redis:alpine
+    ports:
+       - "6379:6379"
+    volumes:
+      - ./volumes/redis:/data
+
+  redis-browser:
+    image: obytes/redis-browser
+    command: --url redis://redis:6379
+    links:
+      - redis
+    ports:
+      - "4567:4567"
+
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./volumes/mongo:/data/db
+
+  mongo_express:
+    image: mongo-express
+    ports:
+      - "8081:8081"
+    links:
+      - mongo
+    environment:
+      - ME_CONFIG_MONGODB_ENABLE_ADMIN=true
+      - ME_CONFIG_MONGODB_SERVER=mongo
+
+  rabbitmq:
+    image: rabbitmq:management-alpine
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    volumes:
+      - ./volumes/rabbitmq:/var/lib/rabbitmq
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+
+  wiremock:
+    image: rodolpheche/wiremock
+    ports:
+      - "8080:8080"
+      - "8079:8443"
+    volumes:
+      - ./volumes/wiremock:/home/wiremock
+    command: ["--https-port", "8443", "--verbose"]
+
+  portainer:
+    image: portainer/portainer
+    ports:
+      - "8001:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./volumes/portainer:/data

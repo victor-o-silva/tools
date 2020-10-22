@@ -1,10 +1,9 @@
 
-## Local Tools
-
 - [bat](https://github.com/sharkdp/bat)
 - [docker](https://www.docker.com/get-docker)
   - [Docker Compose](https://docs.docker.com/compose/)
 - [DBeaver](https://dbeaver.io/)
+- [Gedit](https://wiki.gnome.org/Apps/Gedit)
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [Google Chrome](https://www.google.com.br/chrome/)
 - [htop](https://hisham.hm/htop/)
@@ -20,6 +19,7 @@
 - [PyCharm](https://www.jetbrains.com/pycharm/)
 - [PyEnv](https://github.com/pyenv/pyenv)
 - [Slack](https://slack.com/downloads/linux)
+- [Solarized Dark Theme (Gnome)](https://www.pling.com/p/1311022/)
 - [Tilix](https://gnunn1.github.io/tilix-web/)
 - [Visual Studio Code](https://code.visualstudio.com/download)
 - [z](https://github.com/rupa/z/blob/master/z.sh)

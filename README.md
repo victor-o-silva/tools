@@ -3,6 +3,7 @@
 - [docker](https://www.docker.com/get-docker)
   - [Docker Compose](https://docs.docker.com/compose/)
 - [DBeaver](https://dbeaver.io/)
+- [fzf](https://github.com/junegunn/fzf)
 - [Gedit](https://wiki.gnome.org/Apps/Gedit)
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [Google Chrome](https://www.google.com.br/chrome/)

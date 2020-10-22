@@ -2,9 +2,6 @@ export TERM="xterm-256color"
 
 export ZSH="$HOME/.oh-my-zsh"
 
-# source fonts
-source $HOME/.fonts/*.sh
-
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 DEFAULT_USER="victor"
@@ -50,10 +47,6 @@ export PATH=~/.npm-global/bin:$PATH
 
 # Z
 . ~/z.sh
-
-# ALIASES
-alias gmjc="gitmoji --commit"
-alias gmjl="gitmoji --list"
 
 # zsh autosuggest color for solarized dark
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'

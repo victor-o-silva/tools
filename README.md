@@ -51,5 +51,6 @@ git config --global difftool.prompt false
 ## PyCharm plugins
 
 - [Env File](https://plugins.jetbrains.com/plugin/7861-env-file)
-- [Solarized Themes](https://plugins.jetbrains.com/plugin/12784-solarized-themes)
 - [PlantUML integration](https://plugins.jetbrains.com/plugin/7017-plantuml-integration)
+- [Solarized Themes](https://plugins.jetbrains.com/plugin/12784-solarized-themes)
+- [String Manipulation](https://plugins.jetbrains.com/plugin/2162-string-manipulation)

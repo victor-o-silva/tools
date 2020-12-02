@@ -54,3 +54,4 @@ git config --global difftool.prompt false
 - [PlantUML integration](https://plugins.jetbrains.com/plugin/7017-plantuml-integration)
 - [Solarized Themes](https://plugins.jetbrains.com/plugin/12784-solarized-themes)
 - [String Manipulation](https://plugins.jetbrains.com/plugin/2162-string-manipulation)
+- [Pydantic](https://plugins.jetbrains.com/plugin/12861-pydantic)

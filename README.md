@@ -55,3 +55,9 @@ git config --global difftool.prompt false
 - [Solarized Themes](https://plugins.jetbrains.com/plugin/12784-solarized-themes)
 - [String Manipulation](https://plugins.jetbrains.com/plugin/2162-string-manipulation)
 - [Pydantic](https://plugins.jetbrains.com/plugin/12861-pydantic)
+
+## External services
+
+- [FunRetro](https://funretro.github.io/distributed/)
+- [Git Graph JS](http://gitgraphjs.com/)
+- [ngrok](https://ngrok.com/)
